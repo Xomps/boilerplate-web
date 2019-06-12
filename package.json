@@ -1,0 +1,34 @@
+{
+  "name": "boilerplate-web",
+  "version": "0.1.0",
+  "description": "Boilerplate for web",
+  "scripts": {
+    "dev": "parcel src/index.html --target browser",
+    "build": "parcel build src/index.html --target browser",
+    "test": "jest",
+    "test:w": "jest --watch"
+  },
+  "keywords": [
+    "boilerplate",
+    "preact",
+    "preact-router",
+    "typescript",
+    "jest",
+    "parcel"
+  ],
+  "author": "Xomps",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "parcel": "^1.12.3",
+    "sass": "^1.21.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-beta.2",
+    "preact-router": "^3.0.0"
+  }
+}
