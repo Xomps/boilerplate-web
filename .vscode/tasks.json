@@ -17,11 +17,6 @@
         "$tsc-watch"
       ],
       "isBackground": true
-    },
-    {
-      "type": "npm",
-      "script": "test:w",
-      "problemMatcher": []
     }
   ]
 }
