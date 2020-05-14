@@ -1,10 +1,12 @@
+import './style/style.scss'
 import { Fragment, render, h } from 'preact'
 import { Router } from 'preact-router'
+
 
 const App = () =>
   <Fragment>
     <Router>
-      <h1>Hello world</h1>
+      <h1 default>Hello world!</h1>
     </Router>
   </Fragment>
 

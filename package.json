@@ -3,24 +3,29 @@
   "version": "0.1.0",
   "description": "Boilerplate for web",
   "scripts": {
-    "dev": "parcel src/index.html --target browser",
-    "build": "parcel build src/index.html --target browser"
+    "dev": "webpack --watch --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "boilerplate",
     "preact",
     "preact-router",
     "typescript",
-    "parcel"
+    "webpack"
   ],
   "author": "Xomps",
   "license": "MIT",
   "devDependencies": {
     "@types/history": "^4.7.5",
-    "parcel": "^1.12.4",
+    "css-loader": "^3.5.3",
     "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.4",
     "tslint": "^6.1.2",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "history": "^4.10.1",
